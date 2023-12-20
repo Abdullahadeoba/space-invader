@@ -1,0 +1,30 @@
+body{
+    background: #000000;
+}
+.container-fluid{
+    padding: 0;
+}
+.col-md-9{
+    height: 658px;
+    padding: 0;
+
+}
+.col-md-3{
+    height: 654px;
+    background: #000000;
+    border: 1px red solid;
+    padding: 2% 1%;
+    color: white;
+    font-size: 18px;
+    line-height: 3
+}
+.glyphicon-heart{
+    color:red;
+    font-size: 30px;
+}
+canvas{ 
+    background-image: url('space.jpeg');
+    margin: 0;
+    padding: 0;
+    border: solid 1px red;
+}
