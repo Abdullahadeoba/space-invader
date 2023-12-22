@@ -222,5 +222,4 @@ function home(){
 }
 setInterval(home,20);
 window.onload = begin();
-//<script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/jquery-3.1.1.js"></script>-->
-//<script type="text/javascript" src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js"></script>-->
+//

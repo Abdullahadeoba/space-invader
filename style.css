@@ -25,6 +25,8 @@ body{
 canvas{ 
     background-image: url('space.jpeg');
     margin: 0;
+    background-position: center;
+    background-size: cover;
     padding: 0;
     border: solid 1px red;
 }
