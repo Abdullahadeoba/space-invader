@@ -10,7 +10,7 @@ var enemy_height = 112;
 var enemyNo = 8;
 var enemyArray = [];
 var ppf = 1;
-//shuttle variables
+// shuttle variables
 var shuttle_width = 86;
 var shuttle_height = 148;
 var shuttle_x = (width/2)-(shuttle_width/2);
@@ -23,10 +23,10 @@ var upPressed = false;
 var downPressed = false;
 var bulletArray=[];
 //sound
-var explode = new Audio('sound/explosion.mp3');
-var laser = new Audio('sound/laserr.mp3');
-var background = new Audio('sound/background.mp3');
-var lose = new Audio('sound/lose.mp3');
+var explode = new Audio('Audio/explosion.wav');
+var laser = new Audio('Audio/laser.mp3');
+var background = new Audio('Audio/background.mp3');
+var lose = new Audio('Audio/lose.mp3');
 var scoreBoard;
 //var dead = false;
 var livesLeft = document.getElementById('live');
@@ -48,9 +48,9 @@ function begin(){
 	canvas = document.getElementById("myCanvas");
 	ctx = canvas.getContext("2d");
 	shuttleImg = new Image();
-	shuttleImg.src = 'images/shuttle.png';
+	shuttleImg.src = 'images/shuttle.jpeg';
 	enemyImg = new Image();
-	enemyImg.src = 'images/enemy-mod.png';
+	enemyImg.src = 'images/character.jpeg';
 	scoreBoard= document.getElementById("score")
 	scoreBoard.innerHTML = 0;
 	document.addEventListener('keydown', keyDownHandler, false);
@@ -218,8 +218,7 @@ function home(){
 	hitBullet();
 	shuttleCollide();
 	level();
-//}
+//}	
 }
 setInterval(home,20);
 window.onload = begin();
-//
